@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Digital_Image_Processing_HW3/1.0.0": {
+        "runtime": {
+          "Digital_Image_Processing_HW3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Digital_Image_Processing_HW3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

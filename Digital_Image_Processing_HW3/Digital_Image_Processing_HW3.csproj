@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Digital_Image_Processing_HW3</AssemblyName>
+    <RootNamespace>Digital_Image_Processing_HW3</RootNamespace>
+    <Platforms>AnyCPU</Platforms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <SupportedOSPlatformVersion>6.1</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <!-- 專案未實際使用 Chart 控制項，移除 DataVisualization 相依以避免 NuGet 相容性問題 -->
+
+  <!-- WinForms SDK 將自動包含 .cs 與 .resx，無需手動列出。若未被自動偵測，可再補充。
+  <ItemGroup>
+    <Compile Include="Anime4K.cs" />
+    <Compile Include="FileProcessing.cs" />
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs" />
+    <Compile Include="Form2.cs" />
+    <Compile Include="Form2.Designer.cs" />
+    <Compile Include="Form3.cs" />
+    <Compile Include="Form3.Designer.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  -->
+
+  <!-- 若需要 AForge，建議改用相容的 NuGet 套件；暫時先移除舊 Framework DLL 參考。 -->
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+</Project>
